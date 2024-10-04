@@ -1,2 +1,2 @@
 # SQL---Analyst-Builder
-MySQL - Solutions to the questions on https://www.analystbuilder.com/ using 
+MySQL - Solutions to the questions on https://www.analystbuilder.com/ 
