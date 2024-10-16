@@ -1,0 +1,15 @@
+-- 1.Tesla Models:
+-- Solution:
+
+import pandas as pd;
+
+tesla_models['profit'] = (tesla_models['car_price'] - tesla_models['production_cost'])* tesla_models['cars_sold']
+tesla_models.sort_values(by='profit', ascending = False).head(1)
+
+-- 2. Heart Attack Risk
+-- Solution:
+
+import pandas as pd;
+
+patients[(patients['age'] >= 50) & (patients['cholesterol'] >= 240) & (patients['weight'] >= 200)].sort_values(by='cholesterol', ascending = False)
+
